@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Flex, Spacer, Image, Button,useDisclosure } from "@chakra-ui/react";
 import HistoryModel from "./HistoryModel";
-const navbar = () => {
+const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <Flex justifyContent={"space-between"} py={6} alignItems={"center"} padding={0}>
@@ -25,4 +25,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
